@@ -8,6 +8,12 @@ header > h2 {
   text-align: center;
 }
 
+header > h5 {
+  color: #08e944;
+  font-size: 28px;
+  text-align: center;
+}
+
 #cotizacionesContainer {
   display: flex;
   flex-wrap: wrap;
@@ -18,8 +24,8 @@ header > h2 {
 
 .card {
   border: 1px solid #08e944;
-  width: 250px;
-  height: 280px;
+  width: 260px;
+  height: 320px;
   border-radius: 20px;
   text-align: center;
   display: flex;

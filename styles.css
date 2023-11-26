@@ -84,3 +84,9 @@ header > h5 {
   color: white;
   text-align: center;
 }
+
+#dRed {
+  color: red;
+  font-size: 55px;
+  text-align: center;
+}

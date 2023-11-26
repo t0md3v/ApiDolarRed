@@ -6,16 +6,18 @@ function dolarRedFunc() {
         .then(response => response.json())
         .then(data => {
         getMep.textContent = Number(data.compra);
-    })
+    });
 
     fetch("https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/cad.json")
         .then(response => response.json())
         .then(data => {
         getCad.textContent = Number(data.cad)
-  })
-  let redText = getMep.textContent/getCad.textContent
+  });
+  let redTest = getMep.textContent/getCad.textContent
+  console.log(redTest)  
 }
-// dolarRedFunc()
+dolarRedFunc()
+
 
 /*
 function displayMep(data) {

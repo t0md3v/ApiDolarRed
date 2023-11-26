@@ -3,7 +3,7 @@ const dOficial = "https://dolarapi.com/v1/dolares/oficial";
 const dBlue = "https://dolarapi.com/v1/dolares/blue";
 const dTarjeta = "https://dolarapi.com/v1/dolares/solidario";
 const dRed = getDolar(dMep) + getDolar(dBlue)
-//document.getElementById("dRed").innerHTML = cotizacion.venta
+
 const options = { method: "GET", headers: { Accept: "application/json" } };
 
 const actualizacion = document.getElementById("fechaHora");
@@ -65,3 +65,4 @@ function crearTarjetas(cotizacion) {
   // Agrego la tarjeta al contenedor
   cotizacionesContainer.appendChild(tarjeta);
 }
+document.getElementById("dRed").innerHTML = cotizacion.venta

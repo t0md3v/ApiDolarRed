@@ -65,7 +65,7 @@ function crearTarjetas(cotizacion) {
   // Agrego la tarjeta al contenedor
   cotizacionesContainer.appendChild(tarjeta);
 }
-document.getElementById("dRed").innerHTML = data.getDolar(dMep)
+// document.getElementById("dRed").innerHTML = data.getDolar(dMep)
 
 
 fetch("https://dolarapi.com/v1/dolares/bolsa")

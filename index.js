@@ -3,6 +3,7 @@ const dBlue = "https://dolarapi.com/v1/dolares/blue";
 const dTarjeta = "https://dolarapi.com/v1/dolares/solidario";
 const dMep = "https://dolarapi.com/v1/dolares/bolsa";
 const dRed = dMep + dBlue
+document.getElementById("dRed").innerHTML = dRed
 const options = { method: "GET", headers: { Accept: "application/json" } };
 
 const actualizacion = document.getElementById("fechaHora");

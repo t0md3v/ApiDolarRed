@@ -65,7 +65,7 @@ function crearTarjetas(cotizacion) {
   // Agrego la tarjeta al contenedor
   cotizacionesContainer.appendChild(tarjeta);
 }
-document.getElementById("dRed").innerHTML = dMep.cotizacion.venta
+document.getElementById("dRed").innerHTML = data.venta
 
 /*
 Alternative function for MEP dolar

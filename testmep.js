@@ -15,8 +15,8 @@ function dolarRedFunc() {
   });
   //let redTest = getMep.textContent/getCad.textContent
   //console.log(redTest)  
-  let cad = document.getElementById("usd-cad").value
-    let mep = document.getElementById("dolarMep").value
+  let cad = getCad.value
+    let mep = getMep.value
     document.getElementById("dolarRed").innerHTML = mep/cad
     console.log(mep/cad)
 }

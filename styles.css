@@ -75,7 +75,7 @@ header > h5 {
   position: absolute;
 }
 
-#Red {
+#red {
   color: red;
   font-size: 55px;
   text-align: center;
@@ -83,4 +83,5 @@ header > h5 {
 
 #white {
   color: white;
+  text-align: center;
 }

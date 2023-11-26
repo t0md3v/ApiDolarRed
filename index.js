@@ -1,7 +1,7 @@
+const dMep = "https://dolarapi.com/v1/dolares/bolsa";
 const dOficial = "https://dolarapi.com/v1/dolares/oficial";
 const dBlue = "https://dolarapi.com/v1/dolares/blue";
 const dTarjeta = "https://dolarapi.com/v1/dolares/solidario";
-const dMep = "https://dolarapi.com/v1/dolares/bolsa";
 const dRed = getDolar(dMep) + getDolar(dBlue)
 document.getElementById("dRed").innerHTML = dRed
 const options = { method: "GET", headers: { Accept: "application/json" } };
@@ -31,14 +31,16 @@ async function getDolar(url) {
     console.error(error);
   }
 }
+getDolar(dMep);
 getDolar(dOficial);
 getDolar(dBlue);
 getDolar(dTarjeta);
-getDolar(dMep);
 
+// Receive the quote type and generate the card
 //Recibe la cotizacion del tipo de dolar y genera la tarjeta
 
 function crearTarjetas(cotizacion) {
+  // Create an element div for the card
   // Creo un elemento div para la tarjeta
   const tarjeta = document.createElement("div");
   tarjeta.classList.add("card");

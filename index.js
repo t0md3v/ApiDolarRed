@@ -71,7 +71,7 @@ function crearTarjetas(cotizacion) {
 fetch("https://dolarapi.com/v1/dolares/bolsa")
   .then(response => response.json())
   .then(data => console.log(data.compra))
-  displayMep(data)
+  //displayMep(data)
 
 function displayMep(data) {
   const dolarMep = data.compra;

@@ -64,3 +64,9 @@ header > h5 {
   left: 50%;
   position: absolute;
 }
+
+.dRed {
+  color: red;
+  font-size: 55px;
+  text-align: center;
+}

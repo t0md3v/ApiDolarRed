@@ -1,15 +1,8 @@
 fetch("https://dolarapi.com/v1/dolares/bolsa")
   .then(response => response.json())
-  .then(data => console.log(data))
-  const dolarMep = data.compra
-  const dolarMepDiv = document.getElementById("dolarMep")
-  //displayMep(data)
+  .then(data => displayMep(data.compra))
 
-/*
-function displayMep(data) {
+function displayMep() {
   const dolarMep = data.compra;
   const dolarMepDiv = document.getElementById("dolarMep");
 }
-
-displayMep(data.compra)
-*/

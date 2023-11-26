@@ -67,9 +67,13 @@ function crearTarjetas(cotizacion) {
 }
 document.getElementById("dRed").innerHTML = data.getDolar(dMep)
 
-/*
-Alternative function for MEP dolar
+
 fetch("https://dolarapi.com/v1/dolares/bolsa")
   .then(response => response.json())
   .then(data => console.log(data));
-*/
+  displayMep(data)
+
+function displayMep(data) {
+  const dolarMep = data.compra;
+  const dolarMepDiv = document.getElementById("dolarMep")
+}

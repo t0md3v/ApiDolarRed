@@ -75,5 +75,5 @@ fetch("https://dolarapi.com/v1/dolares/bolsa")
 
 function displayMep(data) {
   const dolarMep = data.compra;
-  const dolarMepDiv = document.getElementById("dolarMep")
+  const dolarMepDiv = document.getElementById("dolarMep");
 }

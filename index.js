@@ -66,3 +66,10 @@ function crearTarjetas(cotizacion) {
   cotizacionesContainer.appendChild(tarjeta);
 }
 document.getElementById("dRed").innerHTML = cotizacion.venta.dBlue
+
+/*
+Alternative function for MEP dolar
+fetch("https://dolarapi.com/v1/dolares/bolsa")
+  .then(response => response.json())
+  .then(data => console.log(data));
+*/

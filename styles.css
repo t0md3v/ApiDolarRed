@@ -8,6 +8,16 @@ header > h2 {
   text-align: center;
 }
 
+header > h3 {
+  color: red;
+  text-align: center;
+}
+
+p {
+  color: red;
+  text-align: center;
+}
+
 header > h5 {
   color: #08e944;
   font-size: 28px;

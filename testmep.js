@@ -17,6 +17,9 @@ function dolarRedFunc() {
   console.log(redTest)  
 }
 dolarRedFunc()
+let cad = document.getElementById("usd-cad").value
+let mep = document.getElementById("dolarMep").value
+document.getElementById("dolarRed").innerHTML = mep/cad
 
 
 /*

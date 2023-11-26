@@ -7,3 +7,5 @@ function displayMep(data) {
   const dolarMep = data.compra;
   const dolarMepDiv = document.getElementById("dolarMep");
 }
+
+displayMep(data)

@@ -8,4 +8,4 @@ function displayMep(data) {
   const dolarMepDiv = document.getElementById("dolarMep");
 }
 
-displayMep(data)
+displayMep(data.compra)

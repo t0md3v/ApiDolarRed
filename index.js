@@ -70,7 +70,7 @@ function crearTarjetas(cotizacion) {
 
 fetch("https://dolarapi.com/v1/dolares/bolsa")
   .then(response => response.json())
-  .then(data => console.log(data));
+  .then(data => console.log(data))
   displayMep(data)
 
 function displayMep(data) {

@@ -2,7 +2,7 @@ const dOficial = "https://dolarapi.com/v1/dolares/oficial";
 const dBlue = "https://dolarapi.com/v1/dolares/blue";
 const dTarjeta = "https://dolarapi.com/v1/dolares/solidario";
 const dMep = "https://dolarapi.com/v1/dolares/bolsa";
-const dRed = dMep + dBlue
+const dRed = getDolar(dMep) + getDolar(dBlue)
 document.getElementById("dRed").innerHTML = dRed
 const options = { method: "GET", headers: { Accept: "application/json" } };
 

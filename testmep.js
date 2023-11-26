@@ -13,7 +13,7 @@ function dolarRedFunc() {
         .then(data => {
         getCad.textContent = Number(data.cad)
   })
-  red = getMep/getCad
+  red = data.compra/data.cad
 }
 dolarRedFunc()
 

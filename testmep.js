@@ -15,7 +15,7 @@ function dolarRedFunc() {
   })
   let redText = getMep.textContent/getCad.textContent
 }
-dolarRedFunc()
+// dolarRedFunc()
 
 /*
 function displayMep(data) {

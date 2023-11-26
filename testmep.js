@@ -13,4 +13,4 @@ function displayMep(data) {
 const mep = dolarMep;
 const heading = document.createElement("h1");
 heading.innerHTML = mep;
-dolarMepDiv.appendChild(heading);
+//dolarMepDiv.appendChild(heading);

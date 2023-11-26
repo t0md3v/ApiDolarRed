@@ -3,6 +3,6 @@ fetch("https://dolarapi.com/v1/dolares/bolsa")
   .then(data => displayMep(data.compra))
 
 function displayMep() {
-  const dolarMep = data.compra;
+  const dolarMep = data;
   const dolarMepDiv = document.getElementById("dolarMep");
 }

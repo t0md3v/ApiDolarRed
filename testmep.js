@@ -3,7 +3,7 @@ let getMep = document.getElementById("dolarMep")
 fetch("https://dolarapi.com/v1/dolares/bolsa")
   .then(response => response.json())
   .then(data => {
-    getMep.textContent = data.compra;
+    getMep.textContent = Number(data.compra);
   })
 
 /*

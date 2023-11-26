@@ -1,6 +1,8 @@
 let getMep = document.getElementById("dolarMep")
 let getCad = document.getElementById("usd-cad")
-document.getElementById("dolarRed") = getMep/getCad
+let red // = getMep/getCad
+red.textContent = getMep/getCad
+red = document.getElementById("dolarRed")
 
 fetch("https://dolarapi.com/v1/dolares/bolsa")
   .then(response => response.json())

@@ -106,13 +106,13 @@ body  {
 }
 
 #redBox {
-  border: 0.1em solid red;
+  border: 0.2em solid red;
   width: 260px;
   height: 320px;
   border-radius: 20px;
   text-align: center;
   font-size: 28px;
-  background-color: black;
+  background-color: rgba(0,0,0,0.5);
   margin: auto;
   padding: 0.5em;
 }

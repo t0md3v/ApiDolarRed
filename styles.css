@@ -137,6 +137,10 @@ section {
   color: rgba(255,50,50,1);
 }
 
-span {
+section > h3 > span {
   color: rgba(255,50,50,1);
+}
+
+section > span {
+  text-align: center;
 }

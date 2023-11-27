@@ -48,7 +48,7 @@ header > h5 {
 
 .card > hr {
   width: 250px;
-  color: #08e944;
+  color: rgba(117,170,219,1);
 }
 .cardCotizaciones {
   display: flex;

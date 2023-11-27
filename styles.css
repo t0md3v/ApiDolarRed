@@ -125,5 +125,11 @@ section {
   margin-right: auto;
   width: 65%;
   border-radius: 20px;
-  padding: 2em;
+  padding: 1.5em;
+}
+
+#noteBien {
+  font-size: 0.7em;
+  font-style: italic;
+  color: rgba(255,0,0,1);
 }

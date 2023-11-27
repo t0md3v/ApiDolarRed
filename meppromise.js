@@ -9,7 +9,7 @@ Promise.all([mepRequest, cadRequest])
   })
   .catch(error => {
     console.error(error);
-  })
+})
 
 /*
 function dolarRedFunc() {

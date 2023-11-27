@@ -2,12 +2,23 @@ const dMep = "https://dolarapi.com/v1/dolares/bolsa";
 const dOficial = "https://dolarapi.com/v1/dolares/oficial";
 const dBlue = "https://dolarapi.com/v1/dolares/blue";
 // const dTarjeta = "https://dolarapi.com/v1/dolares/solidario";
-const dRed = getDolar(dMep) + getDolar(dBlue)
+const getMepAndCad = document.getElementById("dolarMep")
+const mepRequest = fetch("https://dolarapi.com/v1/dolares/bolsa").then(response => response.json());
+const cadRequest = fetch("https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/cad.json").then(response => response.json());
 
 const options = { method: "GET", headers: { Accept: "application/json" } };
 
 const actualizacion = document.getElementById("fechaHora");
 const cotizacionesContainer = document.getElementById("cotizacionesContainer");
+
+Promise.all([mepRequest, cadRequest])
+  .then(([data1, data2]) => {
+    getMepAndCad.textContent = Math.round(Number(data1.compra)/Number(data2.cad));
+    console.log(data1, data2);
+  })
+  .catch(error => {
+    console.error(error);
+})
 
 async function getDolar(url) {
   try {

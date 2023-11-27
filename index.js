@@ -28,9 +28,9 @@ async function getDolar(url) {
     const fechaHoraISO = new Date(data.fechaActualizacion);
     const fecha = fechaHoraISO.toLocaleDateString();
     const hora = fechaHoraISO.toLocaleTimeString();
-    actualizacion.textContent = `${fecha} --- ${hora} `;
+    actualizacion.textContent = `${fecha} - ${hora} `;
 
-    data.compra = data.compra !== null ? data.compra : "-----";
+    data.compra = data.compra !== null ? data.compra : "---";
 
     const cotizacion = {
       nombre: data.nombre,

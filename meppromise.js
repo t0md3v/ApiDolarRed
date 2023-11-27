@@ -1,8 +1,10 @@
+const getMepAndCad = document.getElementById("dolarMep")
 const mepRequest = fetch("https://dolarapi.com/v1/dolares/bolsa").then(response => response.json());
 const cadRequest = fetch("https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/cad.json").then(response => response.json());
 
 Promise.all([mepRequest, cadRequest])
   .then(([data1, data2]) => {
+    getMepAndCad.textContent = Number(data1.compra)/Number(data2.cad);
     console.log(data1, data2);
   })
   .catch(error => {

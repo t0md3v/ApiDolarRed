@@ -101,4 +101,5 @@ body  {
   background-image: url("assets/Argentina-canada-flags-half.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  width: 100%;
 }

@@ -144,3 +144,7 @@ section > h3 > span {
 section > span {
   text-align: center;
 }
+
+a {
+  margin: auto;
+}

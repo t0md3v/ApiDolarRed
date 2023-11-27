@@ -14,7 +14,6 @@ function dolarRedFunc() {
         .then(response => response.json())
         .then(data => {
         getCad.textContent = Number(data.cad)
- let cad = response.cad
   });
     cad = getCad.value
     mep = getMep.value

@@ -16,10 +16,8 @@ function dolarRedFunc() {
         getCad.textContent = Number(data.cad)
  let cad = response.cad
   });
-  //let redTest = getMep.textContent/getCad.textContent
-  //console.log(redTest)  
-  let cad = getCad.value
-    let mep = getMep.value
+    cad = getCad.value
+    mep = getMep.value
     document.getElementById("dolarRed").innerHTML = mep/cad
     console.log(mep/cad)
 }

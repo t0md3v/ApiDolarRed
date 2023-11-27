@@ -18,7 +18,7 @@ function dolarRedFunc() {
     cad = getCad.value
     mep = getMep.value
     document.getElementById("dolarRed").innerHTML = mep/cad
-    console.log(mep/cad)
+    console.log(mep)
 }
 dolarRedFunc()
 

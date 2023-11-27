@@ -127,10 +127,11 @@ section {
   width: 65%;
   border-radius: 20px;
   padding: 1.5em;
+  line-height: 0.5em;
 }
 
 #noteBien {
-  font-size: 0.8em;
+  font-size: 1em;
   font-style: italic;
   color: rgba(255,0,0,1);
 }

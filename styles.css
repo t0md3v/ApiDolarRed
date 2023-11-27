@@ -122,6 +122,8 @@ section {
   border: 0.15em solid red;
   margin-top: 2em;
   margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
   width: 65%;
   border-radius: 20px;
 }

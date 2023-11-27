@@ -29,12 +29,12 @@ header > h5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  color: #08e944;
+  color: rgba(117,170,219,1);
   gap: 2rem;
 }
 
 .card {
-  border: 1px solid rgba(117,170,219,1);;
+  border: 1px solid rgba(117,170,219,1);
   width: 260px;
   height: 320px;
   border-radius: 20px;
@@ -70,7 +70,7 @@ header > h5 {
 }
 
 .v-line {
-  border-left: 1px solid #30f509;
+  border-left: 1px solid rgba(117,170,219,1);
   height: 18%;
   left: 50%;
   position: absolute;

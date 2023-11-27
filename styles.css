@@ -20,7 +20,7 @@ p.red {
 }
 
 header > h5 {
-  color: #08e944;
+  color: rgba(117,170,219,1);
   font-size: 28px;
   text-align: center;
 }
@@ -101,7 +101,7 @@ header > h5 {
 body  {
   background-image: url("assets/Argentina-canada-flags-half.jpg");
   background-repeat: no-repeat;
-  width: 100%;
+  width: 99%;
   background-size: cover;
 }
 

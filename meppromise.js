@@ -4,7 +4,7 @@ const cadRequest = fetch("https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1
 
 Promise.all([mepRequest, cadRequest])
   .then(([data1, data2]) => {
-    getMepAndCad.textContent = Math.floor(Number(data1.compra)/Number(data2.cad));
+    getMepAndCad.textContent = Math.round(Number(data1.compra)/Number(data2.cad));
     console.log(data1, data2);
   })
   .catch(error => {

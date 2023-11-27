@@ -113,4 +113,6 @@ body  {
   text-align: center;
   font-size: 28px;
   background-color: black;
+  margin: auto;
+  padding: 1.5em;
 }

@@ -48,7 +48,7 @@ header > h5 {
 
 .card > hr {
   width: 250px;
-  color: rgba(117,170,219,1);
+  color: rgba(252,191,69,1);
 }
 .cardCotizaciones {
   display: flex;
@@ -101,7 +101,6 @@ header > h5 {
 body  {
   background-image: url("assets/Argentina-canada-flags-half.jpg");
   background-repeat: no-repeat;
-  width: 99%;
   background-size: cover;
 }
 

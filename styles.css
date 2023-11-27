@@ -106,7 +106,7 @@ body  {
 }
 
 #redBox {
-  border: 1px solid black;
+  border: 1em solid red;
   width: 260px;
   height: 320px;
   border-radius: 20px;

@@ -13,7 +13,7 @@ const cotizacionesContainer = document.getElementById("cotizacionesContainer");
 
 Promise.all([mepRequest, cadRequest])
   .then(([data1, data2]) => {
-    getMepAndCad.textContent = Math.round(Number(data1.compra)/Number(data2.cad));
+    getMepAndCad.textContent = '$' + Math.round(Number(data1.compra)/Number(data2.cad));
     console.log(data1, data2);
   })
   .catch(error => {

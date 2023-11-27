@@ -79,12 +79,13 @@ header > h5 {
 #red {
   color: red;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.25em;
 }
 
 #white {
   color: white;
   text-align: center;
+  font-size: 1.5em;
 }
 
 #dRed {

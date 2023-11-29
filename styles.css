@@ -173,3 +173,8 @@ li {
   margin: auto;
   text-align: center;
 }
+
+#spanishLink {
+  display: inline-block;
+  text-align: center;
+}

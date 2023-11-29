@@ -20,7 +20,7 @@ body {
 }
 
 section {
-  background-color: rgba(0,0,0,0.92);
+  background-color: rgba(0,0,0,0.75);
   border: 0.15em solid red;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -28,7 +28,15 @@ section {
   margin-right: auto;
   width: 50%;
   border-radius: 20px;
-  padding: 1.5em;
-  line-height: 1.75em;
+  padding: 1em;
+  line-height: 2em;
   text-align: center;
+  color: rgba(255,50,50,1);
+}
+
+header > h2 {
+  margin-top: 5em;
+  color: rgba(255,50,50,1);
+  text-align: center;
+  font-size: 2em;
 }

@@ -149,3 +149,10 @@ section > span {
 a {
   margin: auto;
 }
+
+#contact {
+  background-image: url("assets/Argentina-canada-flags-flipped.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}

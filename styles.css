@@ -157,7 +157,7 @@ a {
   background-position: center; 
 }
 
-nav > span {
+ul {
   display: flex;
   padding: 1.5em;
   margin: auto;

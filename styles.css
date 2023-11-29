@@ -159,7 +159,14 @@ a {
 
 ul {
   display: flex;
-  padding: 3.5em;
+  padding: 1em;
+  margin: auto;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  padding: 2em;
   margin: auto;
   text-align: center;
 }

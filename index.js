@@ -4,14 +4,16 @@ const dBlue = "https://dolarapi.com/v1/dolares/blue";
 // const dTarjeta = "https://dolarapi.com/v1/dolares/solidario";
 const getMepAndCad = document.getElementById("dolarMep")
 const mepRequest = fetch("https://dolarapi.com/v1/dolares/bolsa").then(response => response.json());
-const cadRequest = fetch("https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/cad.json").then(response => response.json());
+const cadRequest = fetch("https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd/cad.json");
+const cadRequestNew = fetch("https://openexchangerates.org/api/latest.json?app_id=00329c842053463da79ec8b116add234");
+then(response => response.json());
 
 const options = { method: "GET", headers: { Accept: "application/json" } };
 
 const actualizacion = document.getElementById("fechaHora");
 const cotizacionesContainer = document.getElementById("cotizacionesContainer");
 
-Promise.all([mepRequest, cadRequest])
+Promise.all([mepRequest, cadRequestNew])
   .then(([data1, data2]) => {
     getMepAndCad.textContent = '$' + Math.round(Number(data1.compra)/Number(data2.cad));
     console.log(data1, data2);
